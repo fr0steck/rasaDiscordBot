@@ -11,3 +11,7 @@
 4. Run discord_dialog_connector.py (Bot should come online at this point)
 
 5. Talk with him ;)
+
+![screen3](https://user-images.githubusercontent.com/16627790/235002686-d99ab135-b4cf-4582-a329-a2348be318ef.jpg)
+![screen1](https://user-images.githubusercontent.com/16627790/235002689-2b796a12-17c8-4112-967f-8a338fe6eb1a.jpg)
+![screen2](https://user-images.githubusercontent.com/16627790/235002691-f7c0faae-91a7-44c8-8aa0-c641c11ab5fe.jpg)
