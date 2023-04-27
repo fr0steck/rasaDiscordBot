@@ -1,3 +1,6 @@
+(Spelnione wymagania na ocene 3.0, 3 custom stories i dodatkowe zasady + akcje)
+
+
 1. Run rasa server locally : rasa run --enable-api -m models/20230427-234323-spatial-food.tar.gz
 
 2. 
