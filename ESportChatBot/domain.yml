@@ -1,0 +1,68 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_uj
+  - mood_agh
+  - mood_doogs
+  - mood_cats
+
+responses:
+  utter_greet:
+  - text: "Hello! How can I help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Goodbye!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_default:
+  - text: "Sorry, I didn't understand. Can you please rephrase?"
+  
+  utter_uj_is_the_best:
+  - text: "UJ is the best university, no one even comes close!"
+  
+  utter_agh_is_the_worst:
+  - text: "AGH is the worst university by far.."
+  
+  utter_dogs_are_cool:
+  - text: "My favorite breed of a dog is a german shephard!"
+  
+  utter_cats_are_cool_but_dogs_are_cooler:
+  - text: "Yeah.. cats are way better in my opinion.."
+  
+  utter_cats_are_the_coolest:
+  - text: "Cats are the BEST!!"
+  
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_thanks
+  - utter_default
+  - utter_cheer_up
+  - utter_iamabot
+  - utter_did_that_help
+  - utter_agh_is_the_worst
+  - utter_uj_is_the_best
+  - utter_dogs_are_cool
+  - utter_cats_are_cool_but_dogs_are_cooler
+  - utter_cats_are_the_coolest
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

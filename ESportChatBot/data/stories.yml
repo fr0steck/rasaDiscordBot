@@ -1,0 +1,54 @@
+version: "3.1"
+
+stories:
+
+  - story: greet and goodbye
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: talk about university
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_uj
+      - action: utter_uj_is_the_best
+      - intent: mood_agh
+      - action: utter_agh_is_the_worst
+      - intent: goodbye
+      - action: utter_goodbye
+      
+  - story: talk about dogs
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_doogs
+      - action: utter_dogs_are_cool
+      - intent: mood_agh
+      - action: utter_agh_is_the_worst
+      - intent: goodbye
+      - action: utter_goodbye
+      
+  - story: talk about dogs and cats
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_doogs
+      - action: utter_dogs_are_cool
+      - intent: mood_cats
+      - action: utter_cats_are_cool_but_dogs_are_cooler
+      - intent: goodbye
+      - action: utter_goodbye
+      
+  - story: talk about dogs and cats 2
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_doogs
+      - action: utter_dogs_are_cool
+      - intent: mood_cats
+      - action: utter_cats_are_the_coolest
+      - intent: goodbye
+      - action: utter_goodbye

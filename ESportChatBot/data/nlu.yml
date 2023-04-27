@@ -1,0 +1,79 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_uj
+  examples: |
+    - which university do you go to?
+    - what is the best university?
+    - am I talking to a university professor?
+    
+- intent: mood_agh
+  examples: |
+    - which university do you go to?
+    - what is the worst university?
+    - am I talking to a university student?
+    
+- intent: mood_doogs
+  examples: |
+    - what is your favorite dog?
+    - i love dogs!
+    - dogs are awesome!
+    - i want to have a dog
+    
+- intent: mood_cats
+  examples: |
+    - what is your favorite cat?
+    - cats are better
+    - i would rather own cat
+    - i love cats!
+    - cats are awesome!
+    - i want to have a cat
+    

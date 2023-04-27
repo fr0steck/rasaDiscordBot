@@ -1,0 +1,32 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- rule: Say hello when user greets
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+- rule: Say that UJ is the best university when user says which university is the best
+  steps:
+  - intent: mood_uj
+  - action: utter_uj_is_the_best
+  
+- rule: Say that AGH is the worsst university when user says which university is the worst
+  steps:
+  - intent: mood_agh
+  - action: utter_agh_is_the_worst
+  
+- rule: Talk about favorite dogs
+  steps:
+  - intent: mood_doogs
+  - action: utter_dogs_are_cool
+  
+- rule: Default fallback action
+  steps:
+  - action: utter_default
